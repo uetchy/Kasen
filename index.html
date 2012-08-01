@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Kasen by oame</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Kasen</h1>
+        <p class="header">Retina assistant tool for Coda 2</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/oame/Kasen/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/oame/Kasen/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/oame/Kasen">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/oame">oame</a></p>
+
+
+      </header>
+      <section>
+        <h1>必須環境</h1>
+
+<ul>
+<li>Coda 2</li>
+<li>Ruby</li>
+<li>ImageMagick(オススメ: Homebrew package)</li>
+</ul><h1>使い方</h1>
+
+<h3>一括変換</h3>
+
+<p><code>Kasen =&gt; Convert All</code>を選択するとプロジェクト内の全てのリソースから<code>image@2x.png</code>のようにファイル名の末尾に<code>@2x</code>が付いている画像を抽出して、それを縮小した後に<code>image.png</code>のように末尾から<code>@2x</code>を取り除いた名前で保存します。</p>
+
+<h3>個別変換</h3>
+
+<p>CSS文書を開いた状態で<code>background: url(../images/button@2x.png) 0 0 no-repeat</code>の<code>../images/button@2x.png</code>を選択します。その状態でメニューから<code>Kasen =&gt; Convert Selected</code>を選択すると自動的にそのファイルの1xバージョンを作成します。</p>
+
+<h1>クレジット</h1>
+
+<p>Maintained by oame - <a href="http://oameya.com">http://oameya.com</a><br>
+Licensed by MIT License</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+		
+  </body>
+</html>
