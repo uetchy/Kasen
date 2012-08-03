@@ -93,7 +93,7 @@
 			<key>name</key>
 			<string>Measure Image Size</string>
 			<key>output</key>
-			<string>afterSelectedText</string>
+			<string>replaceSelectedText</string>
 			<key>preprocess</key>
 			<string>none</string>
 			<key>script</key>
