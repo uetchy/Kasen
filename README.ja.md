@@ -25,7 +25,7 @@ CSS文書でbackgroundの行末にカーソルを移動させてからメニュ�
 
 ショートカットキー`Command + Shift + M`でも同様のことが出来ます。
 
-![SS](http://cl.ly/image/3X083Y3g1c1s/measure-image-size.png)
+![SS](http://cl.ly/image/403z3j311U24/kasen-measure-image.png)
 
 # クレジット
 
