@@ -14,7 +14,7 @@ image_dir = File.dirname(image_path)
 
 width, height =  `#{identify_path} -verbose "#{image_path}" | grep Geometry | awk '{print $2}'`.strip.split(/x|\+/)
 unless(line.include?("background:"))
-  puts "background: url(#{rel_path});"
+  puts "background: url(#{rel_path}) 0 0 no-repeat;"
 else
   print "\n"
 end

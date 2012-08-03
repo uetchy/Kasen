@@ -21,6 +21,8 @@ CSS文書を開いた状態で`background: url(../images/button@2x.png) 0 0 no-r
 
 CSS文書でbackgroundの行末にカーソルを移動させてからメニューから`Kasen => Measure Image Size`を選択すると、Kasenがイメージサイズを計算してwidthとheightを挿入します。
 
+※フォルダからCSS文書にD&Dすると`url(hoge)`と挿入されますが、その状態のまま実行すると`url(hoge)`が`background: url(hoge) 0 0 no-repeat`と置き換えた上でwidthとheightも挿入されますよ！
+
 ショートカットキー`Command + Shift + M`でも同様のことが出来ます。
 
 ![SS](http://cl.ly/image/3X083Y3g1c1s/measure-image-size.png)
