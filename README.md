@@ -1,6 +1,8 @@
+日本語ドキュメントは[こちら](https://github.com/oame/Kasen/blob/master/README.ja.md)
+
 # Kasen
 
-Retina assistant tool for Coda 2
+Image Assistant for Coda 2
 
 # Requirements
 

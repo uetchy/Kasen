@@ -43,34 +43,63 @@
 	<key>commands</key>
 	<array>
 		<dict>
-			<key>fallbackInput</key>
-			<string>none</string>
-			<key>input</key>
-			<string>none</string>
-			<key>keyEquivalentConflict</key>
-			<false/>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
+					<key>name</key>
+					<string>Convert Selected Path</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>convert_path.rb</string>
+					<key>uuid</key>
+					<string>0C4E64B8-D6C5-48BC-B8AD-E69B278F5E93</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
+					<key>name</key>
+					<string>Convert All</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>convert.rb</string>
+					<key>uuid</key>
+					<string>C0A3742E-29A8-4765-9558-08C84A254FAC</string>
+				</dict>
+			</array>
 			<key>name</key>
-			<string>Convert All</string>
-			<key>output</key>
-			<string>showAsHTML</string>
-			<key>script</key>
-			<string>convert.rb</string>
-			<key>uuid</key>
-			<string>C0A3742E-29A8-4765-9558-08C84A254FAC</string>
+			<string>Retina Image</string>
 		</dict>
 		<dict>
 			<key>fallbackInput</key>
 			<string>none</string>
 			<key>input</key>
-			<string>selection</string>
+			<string>line</string>
+			<key>keyEquivalent</key>
+			<string>$@m</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
 			<key>name</key>
-			<string>Convert Selected Path</string>
+			<string>Measure Image Size</string>
 			<key>output</key>
-			<string>replaceSelectedText</string>
+			<string>afterSelectedText</string>
+			<key>preprocess</key>
+			<string>none</string>
 			<key>script</key>
-			<string>convert_path.rb</string>
+			<string>measure.rb</string>
 			<key>uuid</key>
-			<string>0C4E64B8-D6C5-48BC-B8AD-E69B278F5E93</string>
+			<string>C6AC5585-21FE-47CB-AED7-425025BABAB5</string>
 		</dict>
 	</array>
 </dict>
